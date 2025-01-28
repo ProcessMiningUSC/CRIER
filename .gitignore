@@ -1,0 +1,9 @@
+/.gradle/
+/.idea/
+/build/
+*/build/
+/out/
+*/out/
+/results/
+out.log
+!/gradle/

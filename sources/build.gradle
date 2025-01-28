@@ -1,0 +1,10 @@
+description = 'Process Mining Data Sources'
+
+dependencies {
+    implementation project(':model')
+    implementation group: 'org.deckfour',       name: 'openxes',     version: project.ext.openXESVersion
+    implementation group: 'org.apache.commons', name: 'commons-csv', version: project.ext.commonCSVVersion
+    implementation group: 'org.dom4j',          name: 'dom4j',       version: project.ext.dom4jVersion
+    implementation group: 'com.google.guava',   name: 'guava',       version: project.ext.guavaVersion
+    implementation group: 'javax.xml.bind',     name: 'jaxb-api',    version: project.ext.jaxbVersion
+}

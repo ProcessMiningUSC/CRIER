@@ -1,0 +1,9 @@
+rootProject.name = 'full'
+
+include 'model'
+include 'utils'
+include 'sources'
+include 'discovery'
+include 'conformance'
+include 'drift'
+include 'full'

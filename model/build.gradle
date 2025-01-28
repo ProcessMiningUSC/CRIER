@@ -1,0 +1,6 @@
+description = "Generic Process Mining Model"
+
+dependencies {
+    // Graphviz library
+    implementation group: 'guru.nidi', name: 'graphviz-java-all-j2v8', version: project.ext.graphvizVersion
+}

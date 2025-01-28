@@ -1,0 +1,13 @@
+description = 'Process Model Conformance Metrics'
+
+dependencies {
+    implementation project(':model')
+    implementation project(':utils')
+    implementation project(':sources')
+    implementation project(':discovery')
+
+    implementation group: 'org.jetbrains.kotlinx',              name: 'kotlinx-coroutines-core',    version: project.ext.kotlinCoroutinesVersion
+    implementation group: 'org.processmining',                  name: 'cobefra',                    version: project.ext.cobefraVersion
+    implementation group: 'org.processmining',                  name: 'PNetReplayer',               version: project.ext.promVersion
+    implementation group: 'org.processmining.plugins',          name: 'customNEPrecision',          version: project.ext.customNEPrecisionVersion
+}

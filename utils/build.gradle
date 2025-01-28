@@ -1,0 +1,8 @@
+description = 'Process Mining Utility tools'
+
+dependencies {
+    implementation      project(':model')
+    implementation      group: 'org.jetbrains.kotlinx',         name: 'kotlinx-coroutines-core',    version: project.ext.kotlinCoroutinesVersion
+    implementation      group: 'org.deckfour',                  name: 'openxes',                    version: project.ext.openXESVersion
+    implementation      group: 'es.usc.citius.hipster',         name: 'hipster-core',               version: project.ext.hipsterVersion
+}

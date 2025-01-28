@@ -1,0 +1,16 @@
+description = 'Process Discovery algorithms'
+
+dependencies {
+    implementation project(':model')
+    implementation project(':utils')
+    implementation project(':sources')
+    implementation group: 'org.processmining',              name: 'InductiveMiner',     version: project.ext.promVersion
+    implementation group: 'org.processmining',              name: 'HeuristicsMiner',    version: project.ext.promVersion
+    implementation group: 'org.processmining',              name: 'Framework',          version: project.ext.promVersion
+    implementation group: 'org.processmining',              name: 'Context',            version: project.ext.promVersion
+    implementation group: 'org.processmining',              name: 'Models',             version: project.ext.promVersion
+    implementation group: 'org.deckfour',                   name: 'openxes',            version: project.ext.openXESVersion
+    implementation group: 'net.sf.trove4j',                 name: 'trove4j',            version: project.ext.troveVersion
+    implementation group: 'colt',                           name: 'colt',               version: project.ext.coltVersion
+    implementation group: 'com.kyonifer',                   name: 'koma-core-ejml',     version: project.ext.komaVersion
+}

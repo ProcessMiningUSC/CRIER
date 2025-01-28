@@ -1,0 +1,14 @@
+description = 'Process Mining algorithms to detect Concept Drift'
+
+dependencies {
+    implementation project(':model')
+    implementation project(':utils')
+    implementation project(':discovery')
+    implementation project(':conformance')
+    implementation project(':sources')
+
+    implementation group: 'org.apache.commons',     name: 'commons-math3',      version: project.ext.commonsMathVersion
+    implementation group: 'org.nield',              name: 'kotlin-statistics',  version: project.ext.kotlinStatistics
+    implementation group: 'com.github.haifengl',    name: 'smile-kotlin',       version: project.ext.smileVersion
+    implementation group: 'com.github.haifengl',    name: 'smile-core',         version: project.ext.smileVersion
+}
